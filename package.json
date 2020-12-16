@@ -4,6 +4,7 @@
   "description": "## Instructions In the initial commit to this project you have been provided with only an ESLint config for a React project. Your task is to create an interactive React Calculator page that responds to user input.",
   "main": ".eslintrc.js",
   "scripts": {
+    "dev": "./node_modules/.bin/webpack --progress --config webpack.dev.js",
     "lint": "./node_modules/.bin/eslint --format codeframe --ext jsx .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
