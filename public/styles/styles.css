@@ -1,8 +1,16 @@
 body{
-    text-align: center;
     background-color: red;
 }
 
 .main-content{
     text-align: center;
+    margin-top: 50px;
+
+}
+
+input{
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    margin: 20px 0;
 }
