@@ -12,5 +12,7 @@ input{
     border-radius: 10px;
     outline: none;
     padding: 5px;
-    margin: 20px 0;
+    margin: 20px 10px;
+    width: 50px;
+    
 }

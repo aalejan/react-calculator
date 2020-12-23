@@ -10,5 +10,7 @@ export default () => (
       <option value="/">/</option>
     </select>
     <input id="secondNum" type="text" />
+    <button type="submit" className="calculate-button">=</button>
+    <input type="text" id="answer" />
   </div>
 )
