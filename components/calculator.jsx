@@ -35,6 +35,7 @@ function webCalculator() {
 export default () => (
 
   <div className="main-content">
+    <div id="title"> React Calculator</div>
     <input id="firstNum" type="text" />
     <select name="operations" id="operator">
       <option value="+">+</option>
@@ -44,6 +45,6 @@ export default () => (
     </select>
     <input id="secondNum" type="text" />
     <button type="submit" className="calculate-button" onClick={webCalculator}>=</button>
-    <input type="text" />
+    <input id="answer" type="text" />
   </div>
 )
